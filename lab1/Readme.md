@@ -17,4 +17,5 @@ $ task02
 
 $ task03
 
-
+[oslab.log](https://github.com/k214771AliMehdi/OsLabSpr23/files/10613753/oslab.log)
+[labtast03.txt](https://github.com/k214771AliMehdi/OsLabSpr23/files/10613754/labtast03.txt)
