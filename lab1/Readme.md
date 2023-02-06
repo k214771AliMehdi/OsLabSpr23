@@ -23,22 +23,25 @@ $ task03
 
 
 $ task04
+[oslabtask4.log](https://github.com/k214771AliMehdi/OsLabSpr23/files/10661966/oslabtask4.log)
 
-[oslabtask4.log](https://github.com/k214771AliMehdi/OsLabSpr23/files/10613817/oslabtask4.log)
+
 
 $ task05
 
 [image](https://user-images.githubusercontent.com/123717138/216846445-6234d9a9-9a54-4c55-b389-6c6b81d9c8da.png)
 
-[oslabtask5.log](https://github.com/k214771AliMehdi/OsLabSpr23/files/10613843/oslabtask5.log)
+[oslabtask5.log](https://github.com/k214771AliMehdi/OsLabSpr23/files/10661967/oslabtask5.log)
 
-i want to change the passwd of mehdi user i just simply login to the mehdi type cmd passwd which is use to change passwd of the user
-it ask me for the currnt passwd and new passwd i typed in and its done
+  
+i login to kali type sudo passwd ali02 to change passwd of ali02 and i give credentials for new passwd
 
 
 $ task06
 [itsort06.txt](https://github.com/k214771AliMehdi/OsLabSpr23/files/10613885/itsort06.txt)
-[oslabtask6.log](https://github.com/k214771AliMehdi/OsLabSpr23/files/10613886/oslabtask6.log)
+
+[oslabtask6.log](https://github.com/k214771AliMehdi/OsLabSpr23/files/10661981/oslabtask6.log)
+
 [textfile.txt](https://github.com/k214771AliMehdi/OsLabSpr23/files/10613888/textfile.txt)
 
 
