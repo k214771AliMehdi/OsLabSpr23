@@ -47,8 +47,7 @@
     
 # Task 03
 
-#!/bin/bash
-
+    #!/bin/bash
     # Start sql
     echo "Starting sql..."
     sudo systemctl start mysql
