@@ -61,3 +61,38 @@
     # Stop sql
     echo "Stopping sql..."
     sudo systemctl stop mysql
+    
+# Task 5,6
+
+    ![image](https://user-images.githubusercontent.com/123717138/230983587-4b97c3bd-19b3-461c-9956-96c7bf7baf97.png)
+    
+    **script**
+    
+    #!/bin/bash
+    # User input
+    sender="k214771@nu.edu.pk"
+    read -p "enter the mail u want to send: " receiver
+    gapp="nvmtowprjxljoych"
+    read -p "Enter Subject: " sub
+    read -p "Enter body: " body
+
+    # check for provided attachment file as a positional parameter
+    # -z indicating an empty positional parameter
+    # attachment doesn't exist condition
+
+
+
+        file="note.txt"           # set file as the 1st positional parameter
+
+        # MIME type for multiple type of input file extensions
+
+        MIMEType=`file --mime-type "$file" | sed 's/.*: //'`
+        curl -s --url 'smtps://smtp.gmail.com:465' --ssl-reqd \
+        --mail-from $sender \
+        --mail-rcpt $receiver\
+        --user $sender:$gapp \
+         -H "Subject: $sub" -H "From: $sender" -H "To: $receiver" -F \
+        '=(;type=multipart/mixed' -F "=$body;type=text/plain" -F \
+          "file=@$file;type=$MIMEType;encoder=base64" -F '=)'
+
+
