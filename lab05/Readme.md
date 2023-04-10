@@ -64,7 +64,7 @@
     
 # Task 5,6
 
-    ![image](https://user-images.githubusercontent.com/123717138/230983587-4b97c3bd-19b3-461c-9956-96c7bf7baf97.png)
+   ![image](https://user-images.githubusercontent.com/123717138/230983587-4b97c3bd-19b3-461c-9956-96c7bf7baf97.png)
     
     **script**
     
