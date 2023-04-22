@@ -13,7 +13,6 @@
 
 typedef struct {
     char message[100];
-    int read_flag;
 } shared_data;
 
 int main() {
@@ -33,12 +32,9 @@ int main() {
     // Map the shared memory segment into the process's memory space
     data = mmap(NULL, sizeof(shared_data), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
 
-    // Read data from the shared memory segment
-    sem_wait(mutex);
-    if (data->read_flag == 0) {
-        printf("Process 2: %s\n", data->message);
-        data->read_flag = 1;
-    }
+    // Write data to the shared memory segment
+    printf("Process 1: Enter message: ");
+    scanf("%s", data->message);
     sem_post(mutex);
 
     // Unmap the shared memory segment from the process's memory space
