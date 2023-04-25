@@ -1,0 +1,24 @@
+ 
+OS lab task 9: Semaphores
+DEPARTMENT OF CYBER SECURITY (CYS)
+SECTION: BCY - 4A  
+SUBMITTED TO:
+      	Sir Farooq Zaidi
+SUBMITTED BY:
+    Sarim Muahmmad Khan, 21K-4754
+	  Lachman Das, 21k-3632
+	  Ali Mehdi, 21K-4771
+	  Zain ali, 21K-4755
+   	Shah Mohammed, 21K-3654
+    
+DATE OF SUBMISSION:       
+  13-4-2023 
+
+Task 1:Studied and understood the bakery algorithm
+Task 2:implemented the c code, named bakery.c
+Task 3:implemented semaphores insteads of spin locks name sbakery.c
+Task 4:
+Task 5: Shell script(the program on my machine is called first and 
+	takes the number of threads as a prameter), named bashscript.sh
+Task 6: we will use our data set to print our a graph:
+https://docs.google.com/spreadsheets/d/1kH8I5gtjGP3Hd-4jjmjbjHwCTQbcN6SnvGXQXEgHdjU/edit?usp=sharing
