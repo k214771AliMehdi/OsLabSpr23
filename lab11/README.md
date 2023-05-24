@@ -1,6 +1,33 @@
 # lab_11
 
+##  task_01
 
+### summary of the manual
+
+Objective: The objective of today's OS lab is to cover essential topics in securing a Linux system, including hardening techniques, firewall configuration, and security best practices, as well as setting up and configuring a Squid proxy server.
+
+Introduction to Squid: Squid is an open-source caching and proxy server used to improve network performance, filter requests, and enforce access control policies.
+
+Squid installation and configuration:
+
+Install the Squid package using the commands "sudo apt-get update" and "sudo apt-get install squid".
+Configure Squid by modifying the main configuration file located at "/etc/squid/squid.conf".
+Change the default port and customize other settings as needed.
+Create a file to list the sites you want to block at "/etc/squid/blocksite".
+Restart Squid using the command "sudo systemctl restart squid".
+Configure your browser to use the Squid proxy server.
+Introduction to Linux hardening, security, and firewall:
+
+Linux hardening refers to securing a Linux system by implementing proactive measures to mitigate security threats and vulnerabilities.
+Basic Linux hardening techniques include disabling unnecessary services, keeping the system up-to-date with security patches, configuring a firewall, implementing strong password policies, configuring file system permissions, and implementing user management best practices.
+Disabling unnecessary services and applications using the "systemctl disable <service-name>" command.
+Keeping the system up-to-date with security patches and updates using package management tools like "apt" or "yum".
+Configuring and using a firewall to control network traffic, with options like iptables, ufw, or firewalld.
+Configuring nftables for firewall management and setting up firewall rules in the configuration file.
+Implementing strong password policies by setting minimum length, complexity, age, and history requirements in password policy files.
+Configuring file system permissions to restrict access to sensitive files and directories using commands like chown, chgrp, and chmod.
+Implementing user management best practices by limiting user privileges, enforcing strong password policies, and monitoring user activity.
+Note: Please note that the instructions provided are in a simplified format and may require further research and understanding of specific commands and configurations.
 
 
 ##  task_02
